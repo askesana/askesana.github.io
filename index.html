@@ -25,13 +25,13 @@
               <a href="#home" class="nav__link active">Home</a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
               <a href="#skills" class="nav__link">Skills</a>
             </li>
             <li class="nav__item">
               <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
             </li>
             <li class="nav__item">
               <a href="#education" class="nav__link">Education</a>
@@ -51,8 +51,8 @@
       <section class="home bd-grid" id="home">
         <div class="home__data">
           <h1 class="home__title">
-            Hi,<br />I'am <span class="home__title-color">Teja Illa</span><br />
-            Currently working as Software Engineer<br />
+            Hi,<br />My self <span class="home__title-color">Teja Illa</span><br />
+            and I am a Passionate Software Developer interested in the areas of Distributed Systems, Backend development, Database Management and committed to produce high quality,scalable and bug free code.<br />
           </h1>
 
           <a href="#contact" class="button">Contact</a>
@@ -75,23 +75,6 @@
         </div>
       </section>
 
-      <!--===== ABOUT =====-->
-      <section class="about section" id="about">
-        <h2 class="section-title">About</h2>
-
-        <div class="about__container">
-       
-          <div>
-            <h2 class="about__subtitle">I'am Teja</h2>
-            <p class="about__text">
-              Passionate Software Developer interested in the areas of Machine Learning,Full Stack Development,Cloud and Devops.
-              I am committed to produce high quality,user friendly,scalable and bug free robust code to handle large number 
-              of users and to developed end to end features.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <!--===== SKILLS =====-->
       <section class="skills section" id="skills">
         <h2 class="section-title">Skills</h2>
@@ -100,63 +83,59 @@
           <div>
             <h2 class="skills__subtitle">Profesional Skills</h2>
             <p class="skills__text">
-              Below are the list of Languages , Frameworks , Libraries I used to
-              solve the problems.
+              Below are the list of Languages , Frameworks , Libraries which I have worked
             </p>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-react skills__icon"></i>
-                <span class="skills__name">ReactJs</span>
-              </div>
-              <div class="skills__bar skills__html"></div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-python skills__icon"></i>
-                <span class="skills__name">Python</span>
-              </div>
-              <div class="skills__bar skills__css"></div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">JAVASCRIPT</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-django skills__icon"></i>
-                <span class="skills__name">Django</span>
-              </div>
-              <div class="skills__bar skills__ux"></div>
-            </div>
 
             <div class="skills__data">
               <div class="skills__names">
-                <i class='bx bxl-kubernetes skills__icon'></i>                
-                <span class="skills__name">kubernetes</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-            </div>
-
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class='bx bxs-data skills__icon'></i>                
-                <span class="skills__name">DataBase</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-            </div>
-
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class='bx bxl-c-plus-plus skills__icon'></i>                
-                <span class="skills__name">C++</span>
+                <i class='bx bx-code-alt skills__icon'></i>                
+                <span class="skills__name">Java, C++, Python</span>
               </div>
               <div class="skills__bar skills__js"></div>
             </div>
           </div>
 
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-spring-boot skills__icon'></i>
+                <span class="skills__name">Spring Boot</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxs-data skills__icon'></i>                
+                <span class="skills__name">Postgres, Redis, MongoDB, Cassandra</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-git skills__icon'></i>                
+                <span class="skills__name">Git, Github</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxs-chevrons-right skills__icon'></i>                
+                <span class="skills__name">RabbitMQ, Azure Service Bus</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxs-graduation skills__icon'></i>                
+                <span class="skills__name">Data Structures And Algorithms , OOPS, Database Systems</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
  
       </section>
 
@@ -165,14 +144,26 @@
         <h2 class="section-title">Work Experience</h2>
 
         <div class="work__container">
-          <h2 class="work__subtitle">Devops Intern, Picxy.com (Jan 2021 - May 2021)</h2>
-          <ul class="work__text" type = "circle">
-            <li >Created a Django application to generate JWT tokens and Django REST Api to transfer tokens to client side storage.</li>
-            <li >Integrated React Frontend with Django backend to provide end to end Authorization.</li>
-            <li >Containerized Django applications using Docker and deployed them using Kubernetes.</li>
-            <li >Tested scalability of Kubernetes pods using K6 load tester and managed to run pods seamlessly.</li>
-          </ul>
 
+          <h2 class="work__subtitle">SOFTWARE DEVELOPMENT ENGINEER - L2 (July 2021 - Present)</h2>
+          <ul class="work__text" type = "circle">
+            <li >Workspot is a enterprise-ready cloud-native SaaS platform for
+securely provisioning and maintaining Cloud Desktops</li>
+            <li >Part of Workspot’s monitoring tool called NOC which provide robust monitoring
+instant alerting capabilities to troubleshoot and identify health activity of 50k (and
+scaling) remote VM’s..</li>
+            <li >Responsible for creating Backend API’s which are capable of handling huge amounts
+of data and developed functionalities that help in monitoring and troubleshooting</li>
+            <li >Built different alerting mechanisms and provided multiple features which help in the
+reduction of COGS.</li>
+            <li >Automated the Gateway patching, maintenance, and managing orphaned resources
+flow through scripts which helps the Support-Operations team of Workspot.</li>
+            <li >Replaced the existing Azure Service bus with RabbitMQ which handles the incoming
+heart beat data from all VM’s.</li>
+            <li >Techstack worked : Postgres, Cassandra, Redis, MongoDBCoreJava,
+SpringBoot,RabbitMQ, Azure</li>
+          </ul>
+          
           <br />
 
           <h2 class="work__subtitle">Software Development Intern, Picxy (Aug 2020 - Dec 2020)</h2>
@@ -181,15 +172,41 @@
               producing different combinations of tokens in queries</li>
             <li >Categorized 2 million images into seed categories using Machine Learning in Tensor flow</li>
             <li >Generated titles for untitled images using Extractive summarization of tags generated by Google Vision API using RAKE.</li>
+            <li >Integrated React Frontend with Django backend to provide end to end Authorization.</li>
+            <li >Containerized Django applications using Docker and deployed them using Kubernetes.</li>
           </ul>
+
+          <br />
+        </div>
+      </section>
+
+      <!--===== Projects =====-->
+      <section class="work section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="work__container">
+
+          <h2 class="work__subtitle">THE COFFESHOP</h2>
+          <ul class="work__text" type = "circle">
+            <li >Hands-on experience in developing a robust microservices application using a modern tech stack</li>
+            <li >Techstack : SpringBoot as main framework, Spring API Gateway as a centralized entry point</li>
+            <li >Netflix Eureka serverto facilitate service discovery and dynamic communication</li>
+            <li >Postgres and MongoDB databases for data storage
+</li>
+            <li >Sleuth and Zipkin fortraceability, Twilio for SMS notifications and
+Resilience4j forimplementing circuit breaker pattern</li>
+            <li >Put Github Link here</li>
+          </ul>
+          <a href="https://github.com/teja0404/CoffeeShop">Github</a>
           <br />
 
-          <h2 class="work__subtitle">E-highway team, e-pragati (May 2019 - Jul 2019)</h2>
+          <h2 class="work__subtitle">APIGATEWAY-SERVICEREGISTRY APPLICATION</h2>
           <ul class="work__text" type = "circle">
-            <li >Deployed API's on premise through Cloud Hub for customization and control over implementation</li>
-            <li >Enabled monetization of API's including configuration with MySQL database</li>
-            <li >Integrated GitLab, Jenkins and Mulesoft to setup a project build with Jenkins and Pipelined to Gitlab</li>
+            <li >About: Implemented an API Gateway, which acts like a single entry point for all incoming requests and routes traffic to different services</li>
+            <li >It also has a centralized service registry component keeps track of all available microservices, automatic registration and deregistration of services</li>
+            <li > Techstack: ReactJS, SpringBoot framework and HTTP communication between services</li>
           </ul>
+          <a href="https://github.com/teja0404/APIGateway-ServiceRegistry">Github Link</a>
         </div>
       </section>
 
